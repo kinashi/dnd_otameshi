@@ -1,0 +1,18 @@
+ul {
+  position: relative;
+}
+ul > li {
+  width: 200px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  list-style: none;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+ul > li:not(:first-child) {
+  margin-top: 10px;
+}
+li > div {
+  background-color: #eee;
+}
